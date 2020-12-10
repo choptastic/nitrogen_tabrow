@@ -1,0 +1,12 @@
+%% vim ts=2 sw=2 et ft=erlang
+{application, nitrogen_tabrow,
+ [
+  {description, "A Nitrogen Plugin that provides a row of tabs"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

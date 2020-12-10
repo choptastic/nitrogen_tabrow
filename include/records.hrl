@@ -1,0 +1,1 @@
+-record(tabrow, {?ELEMENT_BASE(element_tabrow), tabs=[], tag, bodies=[]}).
