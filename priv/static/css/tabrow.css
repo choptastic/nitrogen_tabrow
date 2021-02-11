@@ -1,0 +1,73 @@
+.tabrow {
+	padding: 3px 0;
+}
+
+.tabrow_tab {
+	border: 1px solid #aaa;
+}
+
+.tabrow_tabs.tabrow_top .tabrow_tab {
+	border-radius: 3px 3px 0 0;
+}
+
+.tabrow_tabs.tabrow_right .tabrow_tab {
+	border-radius: 0 3px 3px 0;
+}
+
+.tabrow_tabs.tabrow_bottom .tabrow_tab {
+	border-radius: 0 0 3px 3px;
+}
+
+.tabrow_tabs.tabrow_left .tabrow_tab {
+	border-radius: 3px 0 0 3px;
+}
+
+.tabrow_pills .tabrow_tab {
+	border-radius: 20px;
+}
+
+.tabrow_top .tabrow_tab,
+.tabrow_bottom .tabrow_tab {
+	margin: 0 5px 0 0;
+	display:inline-block;
+}
+
+.tabrow_left .tabrow_tab,
+.tabrow_right .tabrow_tab {
+	margin: 0 0 5px;
+	display:block;
+}
+
+.tabrow_tabs.tabrow_top .tabrow_selected {
+	border-bottom: none;
+	/*border-bottom-color: rgba(255, 255, 255, 0);*/
+}
+.tabrow_tabs.tabrow_right .tabrow_selected {
+	border-left: none;
+/*	border-left-color: rgba(255,255,255,0);*/
+}
+.tabrow_tabs.tabrow_bottom .tabrow_selected {
+	border-top: none;
+/*	border-top-color: rgba(255,255,255,0);*/
+}
+.tabrow_tabs.tabrow_left .tabrow_selected {
+	border-right: none;
+/*	border-right-color: rgba(255,255,255,0);*/
+}
+
+a.tabrow_tab:link,
+a.tabrow_tab:hover,
+a.tabrow_tab:active,
+a.tabrow_tab:visited {
+	padding:5px 8px;
+	text-decoration: none;
+}
+
+
+a.tabrow_selected {
+	/*font-weight: bold;*/
+	border-color: black;
+	/*border-width: 3px;*/
+	cursor:default;
+	pointer-events: none;
+}
