@@ -2,8 +2,8 @@
     class           :: class(),
     id              :: id(),
     tag             :: term(),
-    text            :: text(),
-    body            :: body()
+    text=""         :: text(),
+    body=""         :: body()
 }).
 
 -record(tabrow, {?ELEMENT_BASE(element_tabrow),
